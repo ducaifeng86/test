@@ -1,0 +1,127 @@
+@rem: 75rem;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fbfbfb;
+}
+
+#wrap {
+    height: 100%;
+    overflow: auto;
+}
+#top{
+    width:100%;
+    height: 150/@rem;
+    background: -webkit-linear-gradient(left, #ff9000, #ff5100);
+    background: -o-linear-gradient(right, #ff9000, #ff5100);
+    background: -moz-linear-gradient(right, #ff9000, #ff5100);
+    background: linear-gradient(to right, #ff9000, #ff5100);
+}
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90/@rem;
+}
+
+header #scan-icon{
+    float: left;
+    width: 76/@rem;
+    height: 90/@rem;
+    margin-left: 10/@rem;
+}
+header #search{
+    position: relative;
+    float:left;
+    margin-top:14/@rem;
+}
+header #search-icon{
+    position: absolute;
+    top:12/@rem;
+    left:20/@rem;
+    width:49/@rem;
+    height: 40/@rem;
+}
+header input {
+    width:572/@rem;
+    height: 62/@rem;
+    line-height:61/@rem ;
+    padding: 0 70/@rem;
+    box-sizing: border-box;
+    border-radius: 30/@rem;
+    border:none;
+    outline: none;
+    font-size: 30/@rem;
+    color: #a6a6a6;
+}
+header input::-webkit-input-placeholder {
+    color: #a6a6a6;
+    font-size: 30/@rem;
+}
+header #shot-icon{
+    position: absolute;
+    top:12/@rem;
+    right:20/@rem;
+    width:49/@rem;
+    height: 40/@rem;
+}
+header #membership-icon{
+    float:right;
+    width:76/@rem;
+    height: 90/@rem;
+    margin-right:10/@rem;
+}
+/*--S热搜--*/
+#hot-search-div{
+    padding-top: 90/@rem;
+    color: #fff;
+}
+#hot-search-right{
+    float: left;
+    width:667/@rem;
+    height: 60/@rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+#hot-search-div span{
+    float:left;
+    width: 60/@rem;
+    height:60/@rem;
+    margin-left:10/@rem;
+    line-height:60/@rem;
+    font-size: 22/@rem;
+}
+#hot-search-right li{
+    width: 152/@rem;
+    height: 39/@rem;
+    line-height: 39/@rem;
+    font-size: 22/@rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 18/@rem;
+    background-color: rgba(255,164,36,.8);
+}
+/*--E热搜--*/
+/*--S轮播图样式--*/
+.swiper-pagination-bullet {
+    width: 18/@rem !important;
+    height: 18/@rem !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 30/@rem !important;
+}
+.swiper-slide img{
+    width:100%;
+}
+/*--E轮播图样式--*/

@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fbfbfb;
+}
+#wrap {
+  height: 100%;
+  overflow: auto;
+}
+#top {
+  width: 100%;
+  height: 2rem;
+  background: -webkit-linear-gradient(left, #ff9000, #ff5100);
+  background: -o-linear-gradient(right, #ff9000, #ff5100);
+  background: -moz-linear-gradient(right, #ff9000, #ff5100);
+  background: linear-gradient(to right, #ff9000, #ff5100);
+}
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1.2rem;
+}
+header #scan-icon {
+  float: left;
+  width: 1.0133333333333334rem;
+  height: 1.2rem;
+  margin-left: 0.13333333333333333rem;
+}
+header #search {
+  position: relative;
+  float: left;
+  margin-top: 0.18666666666666668rem;
+}
+header #search-icon {
+  position: absolute;
+  top: 0.16rem;
+  left: 0.26666666666666666rem;
+  width: 0.6533333333333333rem;
+  height: 0.5333333333333333rem;
+}
+header input {
+  width: 7.626666666666667rem;
+  height: 0.8266666666666667rem;
+  line-height: 0.8133333333333334rem;
+  padding: 0 0.9333333333333333rem;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  font-size: 0.4rem;
+  color: #a6a6a6;
+}
+header input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 0.4rem;
+}
+header #shot-icon {
+  position: absolute;
+  top: 0.16rem;
+  right: 0.26666666666666666rem;
+  width: 0.6533333333333333rem;
+  height: 0.5333333333333333rem;
+}
+header #membership-icon {
+  float: right;
+  width: 1.0133333333333334rem;
+  height: 1.2rem;
+  margin-right: 0.13333333333333333rem;
+}
+/*--S热搜--*/
+#hot-search-div {
+  padding-top: 1.2rem;
+  color: #fff;
+}
+#hot-search-right {
+  float: left;
+  width: 8.893333333333333rem;
+  height: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+#hot-search-div span {
+  float: left;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.13333333333333333rem;
+  line-height: 0.8rem;
+  font-size: 0.29333333333333333rem;
+}
+#hot-search-right li {
+  width: 2.026666666666667rem;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  font-size: 0.29333333333333333rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.24rem;
+  background-color: rgba(255, 164, 36, 0.8);
+}
+/*--E热搜--*/
+/*--S轮播图样式--*/
+.swiper-pagination-bullet {
+  width: 0.24rem !important;
+  height: 0.24rem !important;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0.4rem !important;
+}
+.swiper-slide img {
+  width: 100%;
+} /*--E轮播图样式--*/
+/*# sourceMappingURL=index.css.map */

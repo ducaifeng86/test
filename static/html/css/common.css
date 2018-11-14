@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* 重置 */
+* {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+	outline: none;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	color: #666;
+}
+
+a {
+	background: transparent;
+	text-decoration: none;
+	color: #000;
+}
+
+a:active {
+	outline: 0;
+}
+
+img,input,button{
+	border: 0;
+}
+
+ul, ol，li {
+	list-style: none;
+}
+input{
+	border: none;
+	background-color:transparent; 
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+	color: #ccc;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+	color: #ccc;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #ccc;
+}
+.border-bottom {
+	position: relative;
+	border-bottom: none !important;
+}
+.border-bottom:before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #D5D5D6;
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: scaleY(0.5);
+	-ms-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
